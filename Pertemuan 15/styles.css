@@ -1,0 +1,63 @@
+p{
+    color:red;
+}
+
+.error{
+    color: blue;
+}
+
+.success .feedback{
+    color: yellow;
+    border: 5px solid yellowgreen;
+}
+
+#top-container{
+    background: lightgray;
+}
+
+#bottom-container{
+    background: lightgreen;
+}
+
+div .error {
+    color:blue;
+}
+
+a[href]{
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: lightyellow;
+}
+
+a[href*="google"]{
+    background-color: green;
+}
+
+a[href$=".ac.id"]{
+    background-color: orange;
+}
+
+h1:hover {
+    color: white;
+    background-color: blue;
+}
+
+p::selection{
+    background-color: red;
+    color:lemonchiffon;
+}
+
+a::before{
+    content: "Link-";
+}
+/*
+.feedback{
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+} 
+
+div.error {
+    color: red;
+}
