@@ -1,0 +1,28 @@
+.first{
+background-color: lightskyblue;
+padding: 20px;
+border: 15px solid red;
+margin: 10px 5px 15px 1px;
+}
+.second{
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 15px solid red;
+    margin: 10px 5px 15px 1px;
+    position: absolute;
+    left: 190px;
+    top: 265px;
+    z-index: 0;
+}
+.third{
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 15px solid red;
+    margin: 10px 5px 15px 1px;
+    position: absolute;
+    left: 380px;
+    top: 450px;
+    z-index: 0;
+    
+    
+}
